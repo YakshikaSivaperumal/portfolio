@@ -1,5 +1,4 @@
-import React from "react";
-import { Linkedin, Github, Mail, MapPin, CheckCircle2 } from "lucide-react";
+import { Linkedin, Github } from "lucide-react";
 
 const RESUME_URL = "/resume/Yakshika_Sivaperumal_Resume.pdf"; // put PDF in /public/resume/
 const MEDIUM_ICON = "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/medium.svg";
