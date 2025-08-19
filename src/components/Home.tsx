@@ -1,6 +1,6 @@
 import { Linkedin, Github } from "lucide-react";
 
-const RESUME_URL = "/resume/Yakshika_Sivaperumal_Resume.pdf"; // put PDF in /public/resume/
+const RESUME_URL = "/YakshikaSivaperumalResume.pdf"; // put PDF in /public/resume/
 const MEDIUM_ICON = "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/medium.svg";
 
 export default function Home() {
