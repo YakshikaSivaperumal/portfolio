@@ -1,9 +1,13 @@
 import { Linkedin, Github } from "lucide-react";
+import { useEffect } from "react";
 
 const RESUME_URL = "/YakshikaSivaperumalResume.pdf"; // put PDF in /public/resume/
 const MEDIUM_ICON = "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/medium.svg";
 
 export default function Home() {
+  useEffect(() => {
+    document.title = "Yakshika Sivaperumal";
+  }, []);
   return (
     <section id="home" className="py-20">
       <div className="grid md:grid-cols-2 gap-10 items-center">
